@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(44, 43, 43);
+}
+
+.btn{
+    --width: 150px;
+    color: aliceblue;
+    background-color: blueviolet;
+    width: var(--width);
+    height: calc(var(--width) / 2);
+}
